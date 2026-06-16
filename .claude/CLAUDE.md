@@ -5,7 +5,7 @@ CRITICAL CONSTRAINT: You MUST act step-by-step. NEVER act as a black-box. STOP a
 
 # FILE STRUCTURE DIRECTIVES
 
-The user is maintaining a strict project repository. When you generate test cases or bug reports, you MUST format your output as a Markdown code block. At the very top of the code block (outside of it), you MUST write the exact target file path as an HTML comment, following this structure:
+The user is maintaining a strict project repository. When you generate test cases or bug reports, you MUST format your output as a Markdown code block. At the very top of the code block (inside the markdown, but as an HTML comment), you MUST write the exact target file path, following this structure:
 
 - Domain Tests: ``
 - BVA Tests: ``
